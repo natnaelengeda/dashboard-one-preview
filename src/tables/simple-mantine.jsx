@@ -75,7 +75,7 @@ export const SimpleMantine = ({ elements, cat, rom }) => {
     <>
       <div className="flex h-auto w-full flex-row items-center justify-between py-10 px-5">
         <div>
-          <img className="w-44" src={logo} alt="FHC Logo" />
+          <img className="w-44" src={logo} alt="Dashboard Logo" />
         </div>
         <div className="flex flex-col items-center justify-center ">
           <h1>የቋሚ ንብረት ቆጠራ ቅጽ</h1>
@@ -96,7 +96,7 @@ export const SimpleMantine = ({ elements, cat, rom }) => {
           )}
         </div>
         <div>
-          <img className="w-44" src={logo} alt="FHC Logo" />
+          <img className="w-44" src={logo} alt="Dashboard Logo" />
         </div>
       </div>
       <Table>

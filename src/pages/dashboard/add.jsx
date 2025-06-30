@@ -26,7 +26,6 @@ function Add() {
   const [dialogOpen, setDialogOpen] = useState(false);
   const state = useContext(LoginContext);
 
-
   // Select Statement Vaiables
   const [agroup, setAgroup] = useState([]);
   const [alocation, setAlocation] = useState([]);
@@ -142,9 +141,13 @@ function Add() {
   const submitHandler = () => {
     handleClose();
     console.log(inputFields);
-    console.log(value);
+    // console.log(value);
     axios
-      .post("/add", { inputFields, admin_id: admin_id, admin_role: thing.role })
+      .post("/Asset/add", {
+        inputFields,
+        admin_id: admin_id,
+        admin_role: thing.role,
+      })
       .then(function (response) {
         if (response.data.msg === "success") {
           setAlertMsg("Saved Successfully");
