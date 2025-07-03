@@ -2,7 +2,7 @@
 
 A sleek, responsive admin dashboard built with React 18 and Vite, featuring a combination of MUI, Mantine, Material Tailwind, and other modern UI frameworks. Designed for complex internal tools and dashboards with charts, tables, and form-heavy interactions.
 
-> ⚡ Live Demo: [https://your-live-demo.com](https://your-live-demo.com)
+> ⚡ Live Demo: [https://dashboard-one-preview.vercel.app](https://dashboard-one-preview.vercel.app)
 
 ---
 
